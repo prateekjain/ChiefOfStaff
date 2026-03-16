@@ -13,12 +13,12 @@ tools:
   - Glob
   - Grep
   - WebSearch
-  - mcp__hubspot__search_crm_objects
-  - mcp__hubspot__get_crm_objects
-  - mcp__hubspot__manage_crm_objects
-  - mcp__hubspot__search_owners
-  - mcp__hubspot__get_properties
-  - mcp__hubspot__search_properties
+  - mcp__claude_ai_HubSpot__search_crm_objects
+  - mcp__claude_ai_HubSpot__get_crm_objects
+  - mcp__claude_ai_HubSpot__manage_crm_objects
+  - mcp__claude_ai_HubSpot__search_owners
+  - mcp__claude_ai_HubSpot__get_properties
+  - mcp__claude_ai_HubSpot__search_properties
 ---
 
 You are a senior revenue operations manager responsible for all sales processes on this venture.

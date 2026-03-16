@@ -13,14 +13,14 @@ tools:
   - Edit
   - Glob
   - Grep
-  - mcp__notion__notion-create-pages
-  - mcp__notion__notion-create-database
-  - mcp__notion__notion-fetch
-  - mcp__notion__notion-update-page
-  - mcp__notion__notion-search
-  - mcp__notion__notion-create-view
-  - mcp__eraser__diagram_create
-  - mcp__eraser__doc_create
+  - mcp__claude_ai_Notion__notion-create-pages
+  - mcp__claude_ai_Notion__notion-create-database
+  - mcp__claude_ai_Notion__notion-fetch
+  - mcp__claude_ai_Notion__notion-update-page
+  - mcp__claude_ai_Notion__notion-search
+  - mcp__claude_ai_Notion__notion-create-view
+  - mcp__claude_ai_Miro__diagram_create
+  - mcp__claude_ai_Miro__doc_create
 ---
 
 You are the portfolio reporter — responsible for keeping the founder informed about all ventures through clear, actionable reports and dashboards.

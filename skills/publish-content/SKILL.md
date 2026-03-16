@@ -7,8 +7,8 @@ allowed-tools:
   - Edit
   - Glob
   - Grep
-  - mcp__notion__notion-fetch
-  - mcp__notion__notion-update-page
+  - mcp__claude_ai_Notion__notion-fetch
+  - mcp__claude_ai_Notion__notion-update-page
   - mcp__Claude_in_Chrome__navigate
   - mcp__Claude_in_Chrome__read_page
   - mcp__Claude_in_Chrome__get_page_text

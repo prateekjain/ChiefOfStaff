@@ -8,8 +8,8 @@ allowed-tools:
   - Glob
   - Grep
   - Bash
-  - mcp__notion__notion-update-page
-  - mcp__notion__notion-search
+  - mcp__claude_ai_Notion__notion-update-page
+  - mcp__claude_ai_Notion__notion-search
 ---
 
 # /pause-venture — Pause a Venture

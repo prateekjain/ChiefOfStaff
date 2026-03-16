@@ -29,8 +29,8 @@ These rules apply to ALL agents across ALL ventures. They are non-negotiable.
 | Vercel CLI | Deploy web apps to Vercel free tier | Bash (`vercel`) |
 | Supabase CLI | Database, auth, storage setup | Bash (`supabase`) |
 | Chrome MCP | Social media posting, web automation | `mcp__Claude_in_Chrome__*` tools |
-| Notion MCP | Dashboard, approval queue, reporting | `mcp__notion__notion-*` tools |
-| HubSpot MCP | CRM, contact management | `mcp__hubspot__*` tools |
+| Notion MCP | Dashboard, approval queue, reporting | `mcp__claude_ai_Notion__notion-*` tools |
+| HubSpot MCP | CRM, contact management | `mcp__claude_ai_HubSpot__*` tools |
 | Slack MCP | Internal team comms | `mcp__74d06d0c__slack_*` tools |
 | GitHub CLI | Repo management | Bash (`gh`) |
 

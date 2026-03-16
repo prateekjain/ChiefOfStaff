@@ -4,8 +4,8 @@ argument-hint: "<type> <venture-slug> <description>"
 allowed-tools:
   - Read
   - Write
-  - mcp__notion__notion-create-pages
-  - mcp__notion__notion-fetch
+  - mcp__claude_ai_Notion__notion-create-pages
+  - mcp__claude_ai_Notion__notion-fetch
 ---
 
 # Submit for Approval

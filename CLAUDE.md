@@ -99,4 +99,4 @@ Your personal IDs should be in `.claude/config.local.md` (gitignored). Copy the 
 Also set environment variables or define in `.claude/config.local.md`:
 - `$PROJECTS_DIR` — where venture repos are cloned (e.g., `~/Projects`)
 - `$CHIEFOFSTAFF_DIR` — path to this repo
-- MCP server UUID mappings for `mcp__notion__`, `mcp__hubspot__`, `mcp__eraser__`
+- MCP server UUID mappings for `mcp__claude_ai_Notion__`, `mcp__claude_ai_HubSpot__`, `mcp__claude_ai_Miro__`

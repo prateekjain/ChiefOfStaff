@@ -12,14 +12,14 @@ Agents read this file to know where to create/update entries.
 - **Digests database**: `YOUR_DIGESTS_DB_ID` (data source: `YOUR_DIGESTS_DATASOURCE_ID`)
 - **Decisions database**: `YOUR_DECISIONS_DB_ID` (data source: `YOUR_DECISIONS_DATASOURCE_ID`)
 
-## MCP Server Mappings
+## MCP Servers
 
-When you connect MCP servers in Claude Code, each gets a UUID-based identifier.
-Map them here so agents can reference them by friendly name.
+Agents reference MCP tools using the standard Claude.ai naming convention:
+- `mcp__claude_ai_Notion__` — connect Notion via Claude.ai MCP integrations
+- `mcp__claude_ai_HubSpot__` — connect HubSpot via Claude.ai MCP integrations
+- `mcp__claude_ai_Miro__` — connect Miro via Claude.ai MCP integrations
 
-- `mcp__notion__` → `mcp__YOUR-NOTION-MCP-UUID__`
-- `mcp__hubspot__` → `mcp__YOUR-HUBSPOT-MCP-UUID__`
-- `mcp__eraser__` → `mcp__YOUR-ERASER-MCP-UUID__`
+No manual UUID mapping needed — just connect the services in Claude.ai and the tools become available automatically.
 
 ## Paths
 

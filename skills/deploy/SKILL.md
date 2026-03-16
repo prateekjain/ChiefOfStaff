@@ -8,9 +8,9 @@ allowed-tools:
   - Bash
   - Glob
   - Grep
-  - mcp__notion__notion-update-page
-  - mcp__notion__notion-fetch
-  - mcp__notion__notion-search
+  - mcp__claude_ai_Notion__notion-update-page
+  - mcp__claude_ai_Notion__notion-fetch
+  - mcp__claude_ai_Notion__notion-search
 ---
 
 # Deploy Venture

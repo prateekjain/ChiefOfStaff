@@ -9,10 +9,10 @@ allowed-tools:
   - Grep
   - Bash
   - Agent
-  - mcp__notion__notion-create-pages
-  - mcp__notion__notion-fetch
-  - mcp__notion__notion-search
-  - mcp__notion__notion-update-page
+  - mcp__claude_ai_Notion__notion-create-pages
+  - mcp__claude_ai_Notion__notion-fetch
+  - mcp__claude_ai_Notion__notion-search
+  - mcp__claude_ai_Notion__notion-update-page
 ---
 
 # /weekly-review — Generate Weekly Board Review

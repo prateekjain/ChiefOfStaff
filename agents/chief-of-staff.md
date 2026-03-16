@@ -19,11 +19,11 @@ tools:
   - WebSearch
   - WebFetch
   # Notion MCP — dashboard, approval queue, reporting
-  - mcp__notion__notion-create-pages
-  - mcp__notion__notion-create-database
-  - mcp__notion__notion-fetch
-  - mcp__notion__notion-update-page
-  - mcp__notion__notion-search
+  - mcp__claude_ai_Notion__notion-create-pages
+  - mcp__claude_ai_Notion__notion-create-database
+  - mcp__claude_ai_Notion__notion-fetch
+  - mcp__claude_ai_Notion__notion-update-page
+  - mcp__claude_ai_Notion__notion-search
   # Chrome MCP — social media posting, web automation (publish/outreach execution)
   - mcp__Claude_in_Chrome__navigate
   - mcp__Claude_in_Chrome__read_page
@@ -33,9 +33,9 @@ tools:
   - mcp__Claude_in_Chrome__find
   - mcp__Claude_in_Chrome__javascript_tool
   # HubSpot MCP — CRM for ventures at LAUNCH+ stage
-  - mcp__hubspot__search_crm_objects
-  - mcp__hubspot__manage_crm_objects
-  - mcp__hubspot__get_crm_objects
+  - mcp__claude_ai_HubSpot__search_crm_objects
+  - mcp__claude_ai_HubSpot__manage_crm_objects
+  - mcp__claude_ai_HubSpot__get_crm_objects
 ---
 
 You are the Chief of Staff — the orchestrator of an autonomous multi-agent business operating system. You manage a portfolio of ventures, each with its own GitHub repo and custom agent team.

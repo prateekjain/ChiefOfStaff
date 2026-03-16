@@ -9,8 +9,8 @@ allowed-tools:
   - Grep
   - Bash
   - Agent
-  - mcp__notion__notion-update-page
-  - mcp__notion__notion-search
+  - mcp__claude_ai_Notion__notion-update-page
+  - mcp__claude_ai_Notion__notion-search
 ---
 
 # /advance-venture — Move to Next Stage
