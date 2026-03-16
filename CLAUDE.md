@@ -85,16 +85,18 @@ Scheduled tasks in `scheduled/` define the 24/7 autonomous operation:
 
 ## Notion Database IDs
 
-These IDs are needed by agents when creating/updating Notion entries:
+These IDs are needed by agents when creating/updating Notion entries.
+Your personal IDs should be in `.claude/config.local.md` (gitignored). Copy the template below and fill in your values:
 
+```
+# .claude/config.local.md
 - **ChiefOfStaff page**: `YOUR_NOTION_PAGE_ID`
 - **Ventures database**: `YOUR_VENTURES_DB_ID` (data source: `YOUR_VENTURES_DATASOURCE_ID`)
 - **Digests database**: `YOUR_DIGESTS_DB_ID` (data source: `YOUR_DIGESTS_DATASOURCE_ID`)
 - **Decisions database**: `YOUR_DECISIONS_DB_ID` (data source: `YOUR_DECISIONS_DATASOURCE_ID`)
+```
 
-<!-- SETUP: Replace the placeholder IDs above with your own Notion database IDs.
-     You also need to configure MCP server IDs in your Claude settings:
-     - mcp__notion__ → Your Notion MCP server UUID
-     - mcp__hubspot__ → Your HubSpot MCP server UUID
-     - mcp__eraser__ → Your Eraser MCP server UUID
-     Set $PROJECTS_DIR and $CHIEFOFSTAFF_DIR environment variables to match your local paths. -->
+Also set environment variables or define in `.claude/config.local.md`:
+- `$PROJECTS_DIR` — where venture repos are cloned (e.g., `~/Projects`)
+- `$CHIEFOFSTAFF_DIR` — path to this repo
+- MCP server UUID mappings for `mcp__notion__`, `mcp__hubspot__`, `mcp__eraser__`
