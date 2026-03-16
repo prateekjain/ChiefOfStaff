@@ -57,9 +57,14 @@ Most AI agent frameworks give you tools to build one agent. ChiefOfStaff is the 
    cd ChiefOfStaff
    ```
 
-2. **Configure your IDs** — Edit `CLAUDE.md` and replace the placeholder IDs:
-   - Notion database IDs (for dashboards — optional)
-   - MCP server IDs will auto-populate from your Claude Code config
+2. **Create your local config** — Copy the template and fill in your IDs:
+   ```bash
+   mkdir -p .claude
+   cp docs/config.local.example.md .claude/config.local.md
+   # Edit .claude/config.local.md with your Notion database IDs,
+   # MCP server UUIDs, and local paths
+   ```
+   This file is gitignored — your personal config stays private. See [Setup Guide](docs/getting-started.md) for details.
 
 3. **Launch your first venture**
    ```bash
